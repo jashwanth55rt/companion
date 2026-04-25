@@ -4,16 +4,13 @@
   "private": true,
   "description": "Web UI for Claude Code agents",
   "scripts": {
-    "dev": "cd web && bun run dev",
-    "build": "cd web && bun run build",
-    "start": "cd web && bun run start",
-    "prepare": "husky"
+    "dev": "cd web && npm run dev",
+    "build": "cd web && npm run build",
+    "start": "cd web && npm run start"
   },
   "author": "The Vibe Company",
   "license": "MIT",
-  "dependencies": {
-    "the-companion": "^0.2.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "husky": "^9.1.7"
   }
